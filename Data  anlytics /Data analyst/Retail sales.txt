@@ -1,0 +1,80 @@
+# 📄 Retail Sales Forecasting and Visualization Project Summary
+
+## 1. Project Title
+**Retail Sales Forecasting and Visualization using Machine Learning and Power BI**
+
+---
+
+## 2. Objective
+To accurately predict future retail sales using Machine Learning techniques and present insights through interactive dashboards built in Power BI for better business decision-making.
+
+---
+
+## 3. Tools and Technologies
+- **Programming:** Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+- **Machine Learning:** Linear Regression, XGBoost
+- **Business Intelligence:** Power BI
+- **Other Libraries:** Statsmodels, Time Series Analysis modules
+
+---
+
+## 4. Dataset
+- **Source:** Retail Sales Forecasting Dataset (CSV file)
+- **Features:**  
+  - `date` (Date of sale)  
+  - `store` (Store ID)  
+  - `item` (Item ID)  
+  - `sales` (Number of sales)  
+
+---
+
+## 5. Major Steps Followed
+
+### 🛠️ Data Preprocessing
+- Converted `date` column to datetime format, handled parsing errors (`dayfirst=True`).
+- Set `date` as the dataset index for time series modeling.
+- Handled missing values and cleaned inconsistent data entries.
+
+### 📊 Exploratory Data Analysis (EDA)
+- Analyzed overall sales trends across time.
+- Explored store-wise and item-wise performance.
+- Visualized correlation heatmaps for feature relations.
+
+### ⚙️ Feature Engineering
+- Created lag features to capture past sales performance.
+- Built time-based features (month, week, day) to capture seasonality.
+
+### 🤖 Model Building
+- Applied Linear Regression and XGBoost Regressor for forecasting.
+- Evaluated model performance using RMSE and R² scores.
+
+### 📈 Power BI Deployment
+- Exported final dataset with predictions into a CSV file.
+- Created dynamic, interactive dashboards:
+  - Sales Trends over Time
+  - Store-wise Sales Comparison
+  - Forecast vs Actual Performance
+- Enhanced with custom colors, slicers, and filters for dynamic user interaction.
+
+---
+
+## 6. Key Outcomes
+- Achieved accurate short-term forecasting of retail sales.
+- Built an end-to-end professional-grade data science project with BI integration.
+- Created an easily understandable dashboard for stakeholders' decision support.
+
+---
+
+## 7. Skills Developed
+- Data Cleaning & Preprocessing
+- Feature Engineering
+- Machine Learning Modeling
+- Time Series Forecasting
+- Data Visualization with Power BI
+- Business Storytelling with Data
+
+---
+
+# ✅ Status
+**Completed and deployed successfully. Ready to showcase in resume, interviews, and LinkedIn portfolio!**
+
